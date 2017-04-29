@@ -1,0 +1,47 @@
+.header {
+	font-family: 'Fredoka One', cursive;
+	text-align: center;
+	color: #53b0e2;
+	padding: 20px;
+	background: #53b0e2;
+	margin-top: -10px;
+
+}
+
+.heading{
+	font-family: 'Fredoka One', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	margin-bottom: -10px;
+}
+
+.linebreak {
+	size: 50px;
+	padding: 1px;
+	background: #a3a3a3;
+
+}
+
+
+.narwhal {
+	float: left;
+	margin-left: -20px;
+	padding: 20px;
+
+}
+.game {
+	border: 1px solid black;
+	padding: 50px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	color: #3a83aa;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+#currentWord {
+ 	font-size: 80px; 
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+<html lang="en">
+
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+<head>
+	<title>Marine Life Hangman</title>
+</head>
+
+<body>
+
+	<div class = "header">
+		
+		<div class="heading">
+	
+			<img src="assets/images/jellyfishref.jpg">Ocean Life Hangman<img src="assets/images/jellyfishref.jpg">
+	
+		</div>
+	
+		<div id="audiocontainer">
+
+			<input type="button" value="PLAY"  onclick="play()">
+			<audio id="audio" src="assets/music/hangmanaudio.mp3" ></audio>
+
+		</div>
+	</div>
+
+	<div class ="linebreak"></div>
+
+	<div class="container">		
+		<div class="row">
+		<div class="col-lg-6 narwhal">
+	
+			<img src="assets/images/narwhalgif.gif" />
+
+		</div>
+
+		<div class="col-lg-6 game">
+			Press any letter key to get started!
+			<br>
+			<span id="currentword"></span>
+			<br>
+			Wins: <span id="wincount">0</span>
+			<br>
+			Losses: <span id="losscount">0</span>
+			<br>
+			Lives Left: <span id="livesleft"></span>
+			<br>
+			You already picked!: <span id="moop"></span>
+		</div>
+		</div>
+	</div>
+  
+    <script src="assets/js/game.js"></script>
+
+</body>
+</html>
